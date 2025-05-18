@@ -112,11 +112,6 @@ Once the backend server is running, visit:
 - Swagger UI: `http://localhost:8000/docs`
 - ReDoc: `http://localhost:8000/redoc`
 
-## Security Notes
-
-- Keep your Google API key secure
-- Never commit API keys or sensitive information to version control
-- Use environment variables for all sensitive configuration
 
 ## Contributing
 
