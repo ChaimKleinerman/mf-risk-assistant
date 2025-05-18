@@ -2,6 +2,8 @@
 
 An AI-powered tool that helps insurance professionals quickly assess risk factors for multi-family properties using Google's Gemini AI.
 
+> **Note**: This application is currently only supported on Windows operating systems.
+
 ## Project Structure
 
 ```
@@ -27,6 +29,12 @@ mf-risk-assistant/
 - Insurance coverage recommendations
 - Customizable assessment options
 
+## System Requirements
+
+- Windows 10 or later
+- Python 3.8 or higher
+- Node.js 16 or higher
+
 ## Setup Instructions
 
 ### Backend Setup
@@ -41,10 +49,7 @@ mf-risk-assistant/
 
    ```bash
    python -m venv venv
-   # On Windows
    venv\Scripts\activate
-   # On Unix/MacOS
-   source venv/bin/activate
    ```
 
 3. Install dependencies:
@@ -52,6 +57,8 @@ mf-risk-assistant/
    ```bash
    pip install -r requirements.txt
    ```
+
+
 
 4. Start the backend server:
    ```bash
@@ -104,6 +111,7 @@ mf-risk-assistant/
 - TypeScript
 - Vite
 - Tailwind CSS
+- React Query for data fetching and caching
 
 ## API Documentation
 
@@ -113,14 +121,4 @@ Once the backend server is running, visit:
 - ReDoc: `http://localhost:8000/redoc`
 
 
-## Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
