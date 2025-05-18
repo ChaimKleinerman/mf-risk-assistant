@@ -32,7 +32,7 @@ mf-risk-assistant/
 ## System Requirements
 
 - Windows 10 or later
-- Python 3.8 or higher
+- Python 3.11 or higher
 - Node.js 16 or higher
 
 ## Setup Instructions

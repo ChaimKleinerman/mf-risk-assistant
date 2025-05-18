@@ -77,8 +77,7 @@ The system follows a modern microservices architecture with two main components:
 - Implemented streaming responses from the AI model
 - React Query for optimistic updates and background refetching
 
-### 4. Security
-
+### 4. Performance
 
 **Challenge**: Handling multiple concurrent risk assessments
 **Solution**:
