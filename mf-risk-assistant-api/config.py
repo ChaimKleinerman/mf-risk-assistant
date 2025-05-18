@@ -10,7 +10,7 @@ if not GOOGLE_API_KEY:
 
 
 HOST = "0.0.0.0"
-PORT = 8000
+PORT = 8080
 
 
 CORS_ORIGINS = ["http://localhost:5173"]  
