@@ -55,7 +55,7 @@ mf-risk-assistant/
 
 4. Start the backend server:
    ```bash
-   uvicorn main:app --reload
+   python main.py
    ```
 
 ### Frontend Setup
